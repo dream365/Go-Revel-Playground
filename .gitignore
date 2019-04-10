@@ -1,3 +1,11 @@
 test-results/
 tmp/
 routes/
+
+*.iml
+*.ipr
+*.iws
+.idea/
+/build/
+/dist/
+/out/

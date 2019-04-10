@@ -1,3 +1,9 @@
+Go-Revel-Playground
+===================
+It is a project that make a document and develop example code to study revel, a high-productivity, flexible web framework for the Go language.
+
+## [Go-Revel-Playground Site](https://dream365.github.io/Go-Revel-Playground/)
+
 # Welcome to Revel
 
 A high-productivity web framework for the [Go language](http://www.golang.org/).
