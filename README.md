@@ -1,49 +1,14 @@
-Go-Revel-Playground
+Go-Revel-Example
 ===================
 It is a project that make a document and develop example code to study revel, a high-productivity, flexible web framework for the Go language.
 
-## [Go-Revel-Playground Site](https://dream365.github.io/Go-Revel-Playground/)
-
-# Welcome to Revel
-
-A high-productivity web framework for the [Go language](http://www.golang.org/).
-
-
-### Start the web server:
-
-   revel run myapp
-
-### Go to http://localhost:9000/ and you'll see:
-
-    "It works"
-
-## Code Layout
-
-The directory structure of a generated Revel application:
-
-    conf/             Configuration directory
-        app.conf      Main app configuration file
-        routes        Routes definition file
-
-    app/              App sources
-        init.go       Interceptor registration
-        controllers/  App controllers go here
-        views/        Templates directory
-
-    messages/         Message files
-
-    public/           Public static assets
-        css/          CSS files
-        js/           Javascript files
-        images/       Image files
-
-    tests/            Test suites
-
-
-## Help
-
-* The [Getting Started with Revel](http://revel.github.io/tutorial/gettingstarted.html).
-* The [Revel guides](http://revel.github.io/manual/index.html).
-* The [Revel sample apps](http://revel.github.io/examples/index.html).
-* The [API documentation](https://godoc.org/github.com/revel/revel).
-
+Tutorial
+-------------
+#### 1. [Getting started](doc/GettingStart.md)
+How to get Revel up and running.
+#### 2. [Creating an app](doc/CreateApp.md)
+How to create a skeleton Revel project.
+#### 3. [Request Flow](doc/RequestFlow.md)
+Trace the different steps in handling a request.
+#### 4. [Hello World app](doc/HelloWorldApp.md)
+Implementing the ‘Hello World’ application in Revel.
